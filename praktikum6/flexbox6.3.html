@@ -6,6 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Belajar flexbox 3</title>
     <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
         body{
             display: flex;
             flex-direction: column;
@@ -38,7 +42,7 @@
             background-color: cadetblue;
             height: 4em;
             text-align: center;
-            margin: 0.5em;
+            margin: 1em 0.5em;
             padding-top: 15px;
             font-size: 20px;color: whitesmoke;
         }
@@ -61,12 +65,10 @@
     <header>Header</header>
     <div class="main">
         <aside>Aside </aside>
-        <Article> Article
-            <p> 
-              <img src="img/badak.jpg" width="25%" alt="">
-                <img src="img/harimau.jpg" width="25%" alt="">
-                <img src="img/gajah.jpg" width="25%" alt="">
-            </p>
+        <Article><h2>Article</h2>  
+              <img src="img/badak.jpg" width="250" alt="">
+                <img src="img/harimau.jpg" width="230" alt="">
+                <img src="img/gajah.jpg" width="250" alt="">
         </Article>
     </div>    
     <footer>Footer</footer>
